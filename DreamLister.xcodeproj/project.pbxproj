@@ -13,6 +13,14 @@
 		52DB74181FEBAA7B009E9289 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74161FEBAA7B009E9289 /* DreamLister.xcdatamodeld */; };
 		52DB741A1FEBAA7B009E9289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DB74191FEBAA7B009E9289 /* Assets.xcassets */; };
 		52DB741D1FEBAA7B009E9289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB741B1FEBAA7B009E9289 /* LaunchScreen.storyboard */; };
+		52DB742C1FEBB03A009E9289 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74241FEBB03A009E9289 /* Item+CoreDataClass.swift */; };
+		52DB742D1FEBB03A009E9289 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74251FEBB03A009E9289 /* Item+CoreDataProperties.swift */; };
+		52DB742E1FEBB03A009E9289 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74261FEBB03A009E9289 /* ItemType+CoreDataClass.swift */; };
+		52DB742F1FEBB03A009E9289 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74271FEBB03A009E9289 /* ItemType+CoreDataProperties.swift */; };
+		52DB74301FEBB03A009E9289 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74281FEBB03A009E9289 /* Store+CoreDataClass.swift */; };
+		52DB74311FEBB03A009E9289 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB74291FEBB03A009E9289 /* Store+CoreDataProperties.swift */; };
+		52DB74321FEBB03A009E9289 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB742A1FEBB03A009E9289 /* Image+CoreDataClass.swift */; };
+		52DB74331FEBB03A009E9289 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB742B1FEBB03A009E9289 /* Image+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		52DB74191FEBAA7B009E9289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DB741C1FEBAA7B009E9289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DB741E1FEBAA7B009E9289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DB74241FEBB03A009E9289 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52DB74251FEBB03A009E9289 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52DB74261FEBB03A009E9289 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52DB74271FEBB03A009E9289 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52DB74281FEBB03A009E9289 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52DB74291FEBB03A009E9289 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52DB742A1FEBB03A009E9289 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52DB742B1FEBB03A009E9289 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		52DB740E1FEBAA7B009E9289 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				52DB74341FEBB082009E9289 /* Model */,
 				52DB740F1FEBAA7B009E9289 /* AppDelegate.swift */,
 				52DB74111FEBAA7B009E9289 /* ViewController.swift */,
 				52DB74131FEBAA7B009E9289 /* Main.storyboard */,
@@ -65,6 +82,29 @@
 				52DB74161FEBAA7B009E9289 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		52DB74341FEBB082009E9289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52DB74241FEBB03A009E9289 /* Item+CoreDataClass.swift */,
+				52DB74261FEBB03A009E9289 /* ItemType+CoreDataClass.swift */,
+				52DB74281FEBB03A009E9289 /* Store+CoreDataClass.swift */,
+				52DB742A1FEBB03A009E9289 /* Image+CoreDataClass.swift */,
+				52DB74351FEBB089009E9289 /* Generated */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52DB74351FEBB089009E9289 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				52DB74251FEBB03A009E9289 /* Item+CoreDataProperties.swift */,
+				52DB74271FEBB03A009E9289 /* ItemType+CoreDataProperties.swift */,
+				52DB74291FEBB03A009E9289 /* Store+CoreDataProperties.swift */,
+				52DB742B1FEBB03A009E9289 /* Image+CoreDataProperties.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +179,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DB742E1FEBB03A009E9289 /* ItemType+CoreDataClass.swift in Sources */,
 				52DB74121FEBAA7B009E9289 /* ViewController.swift in Sources */,
 				52DB74101FEBAA7B009E9289 /* AppDelegate.swift in Sources */,
+				52DB742C1FEBB03A009E9289 /* Item+CoreDataClass.swift in Sources */,
+				52DB74311FEBB03A009E9289 /* Store+CoreDataProperties.swift in Sources */,
 				52DB74181FEBAA7B009E9289 /* DreamLister.xcdatamodeld in Sources */,
+				52DB74301FEBB03A009E9289 /* Store+CoreDataClass.swift in Sources */,
+				52DB742F1FEBB03A009E9289 /* ItemType+CoreDataProperties.swift in Sources */,
+				52DB742D1FEBB03A009E9289 /* Item+CoreDataProperties.swift in Sources */,
+				52DB74321FEBB03A009E9289 /* Image+CoreDataClass.swift in Sources */,
+				52DB74331FEBB03A009E9289 /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
