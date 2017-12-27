@@ -1,16 +1,16 @@
 //
 //  Item+CoreDataClass.swift
 //  DreamLister
-//
-//  Created by Mikko Rouru on 21.12.2017.
 //  Copyright © 2017 Mikko Rouru. All rights reserved.
-//
 //
 
 import Foundation
 import CoreData
 
-@objc(Item)
 public class Item: NSManagedObject {
 
+    public override func awakeFromInsert() {
+        super.awakeFromInsert()
+        self.created = NSDate()
+    }
 }
